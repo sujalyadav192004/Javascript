@@ -1,0 +1,33 @@
+<doctype html>
+    <html lang="en"> cheap ometa charset - "utf-8"> Stitle>Range Slider Control Query Uk/title>
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src-"https://code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript"></script>
+    <script type"text/javascript"> Sidocument).ready(function () { SL Age RangeSlider").slider
+                                       orientation: 'horizontal, min: 18 max: 100, value: 18 slide: function (event, ui)
+    SI #AgeValue").val(ul.value;
+    ${ "#Azevalue").val($I #Age Rangeslider").slider"value":
+    SI PriceValue").Slider
+    range: true, min: 1, max: 500 values: [1, 501 start: function (event, ul)
+    S("startvalue").vali s ul values[0]);
+        stop: function(event, ui)
+    SI"Hendvalue") .val("S' + ul.values[1]);
+    change: function (event, ui)
+    $("#changevalue") vall'' + ul.values[0] + " - $" + ul.values[1]);
+        slide: function (event, ui)
+        51 slidevalue") .val("s'+ul.valuesfol+" $ + ul.values(11);
+    </script>oo
+    <style type="text/css">
+        itage Value width:10px;
+        height:30px font-size:large: font-weight:bold;
+        color:red;
+        #AgeRange Slider PriceValue width:300px: #startvalue,
+        Hendvalue,
+        #changevalue,
+        slidevalue width:150px;
+        height:30px;
+        font-size:large;
+        font-weight:bold;
+        color:Navy: <style>head>cbody>><label for="AgeValueEnter Your Age:</label <input type=" text" id-AgeValue" disabled"true" /></p <div id-'Age Rangeslider x/div>
+ <div id="priceValue"></div>><label for - "startvalue">Start Value:</label><input type="text" id="startvalue" disabled="true" cps><label for="endvalue">End Value:</label><input type="text" id="endvalue" disabled="true" Ups a><label for="changevalue">Change in Range:</label>cinput type="text" id="changevalue" disabled="true">p><label for="slidevalueSlide Gap Valuesc/label> <input type-" text" id-" slidevalue' disabled"true"> aps
+ </body </html>
